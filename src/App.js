@@ -6,12 +6,9 @@ function App() {
   const [index, setIndex] = useState(0);
   const [texts, setTexts] = useState([]);
 
-  useEffect(() => {
-  if(index > data.length){
-    const myData = 
-    setTexts()
+  const myPgraph = () => {
+    
   }
-  })
 
   return (
     <>
